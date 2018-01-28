@@ -17,12 +17,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button myButton;
-        myButton = (Button) findViewById(R.id.askButton);
+        myButton = findViewById(R.id.askButton);
 
         Log.d("magic-8-ball", "Button was pressed!");
 
 
-        final ImageView ballDisplay = (ImageView) findViewById(R.id.image_eightBal);
+        final ImageView ballDisplay = findViewById(R.id.image_eightBal);
 
         final int[] ballArray = {
                 R.drawable.ball1,
